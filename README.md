@@ -38,6 +38,8 @@ python3 -m venv .venv
 python3 -m pip install -e .
 ```
 
+The project pins the newest published SDK/runtime, `0.1.2rc1`. Upstream documentation may describe unreleased APIs, so test the bundle against Harness before changing this pin.
+
 Create an isolated Harness home outside the workspace. Install the local bundle into the full SDK profile:
 
 ```bash
@@ -73,6 +75,10 @@ DeepSeek Harness ships an optional session-local Schedule overlay. Enable that o
 Copy `.env.example` and `config.example.yaml` to ignored local files. Supply candidate values through masked environment injection or files under an approved private root. Never commit or print those files.
 
 The current bundle accepts fixture discovery only. Add network discovery as a separate provider plugin, keep bounded timeouts and retries, and return normalized public job records to the job-scout service. Do not mix credentials or browser state into discovery records.
+
+## Connect Career Ops
+
+The bundle still uses its local tracker by default. [Career Ops integration](docs/CAREER_OPS.md) defines the server-side API contract, safety boundary, write sequence, and verification steps for a remote tracker adapter.
 
 ## Tests
 

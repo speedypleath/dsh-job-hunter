@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "private-job-scout-dsh-runner"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["deepseek-harness-sdk==0.1.2rc1"]
+
+[project.scripts]
+job-scout-dsh = "sdk.run:main"
+
+[tool.setuptools.packages.find]
+include = ["sdk*"]

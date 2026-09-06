@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","required":["resource_key","name","kind","public_url"],"properties":{"resource_key":{"type":"string"},"name":{"type":"string"},"kind":{"type":"string"},"public_url":{"type":"string"},"enabled":{"type":"boolean"}},"additionalProperties":false}

@@ -1,0 +1,30 @@
+[
+  {
+    "source_key": "synthetic-001",
+    "source_name": "Synthetic Specialist Board",
+    "public_url": "https://jobs.example.invalid/synthetic-001",
+    "company": "Example Audio Labs",
+    "title": "Senior DSP Software Engineer",
+    "location": "Exampleland Remote",
+    "workplace_mode": "remote",
+    "employment_type": "full-time",
+    "description": "Build audio signal processing software and music tools.",
+    "language": "English",
+    "portal_kind": "synthetic",
+    "seniority": "senior"
+  },
+  {
+    "source_key": "synthetic-002",
+    "source_name": "Synthetic General Board",
+    "public_url": "https://jobs.example.invalid/synthetic-002",
+    "company": "Example Systems",
+    "title": "Junior Sales Associate",
+    "location": "Outside Region",
+    "workplace_mode": "onsite",
+    "employment_type": "full-time",
+    "description": "Support commercial sales operations.",
+    "language": "English",
+    "portal_kind": "synthetic",
+    "seniority": "junior"
+  }
+]

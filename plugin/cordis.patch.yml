@@ -1,0 +1,13 @@
+- insert:
+  - id: job-scout
+    name: dsh-job-scout
+    config:
+      mode: dry-run
+      configPath: !!js process.env.JOB_SCOUT_CONFIG_PATH ?? 'config.local.json'
+      workspaceRoot: !!js process.env.JOB_SCOUT_WORKSPACE_ROOT ?? process.cwd()
+      stateRoot: !!js process.env.JOB_SCOUT_STATE_ROOT ?? 'runtime'
+      approvalRoot: !!js process.env.JOB_SCOUT_APPROVAL_ROOT ?? 'approvals'
+      networkEnabled: false
+      externalWritesEnabled: false
+      timeoutMs: 15000
+      maxJobsPerSource: 50

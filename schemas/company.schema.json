@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","required":["company_key","name","sources"],"properties":{"company_key":{"type":"string"},"name":{"type":"string"},"sources":{"type":"array","items":{"type":"string"}},"active":{"type":"boolean"}},"additionalProperties":false}

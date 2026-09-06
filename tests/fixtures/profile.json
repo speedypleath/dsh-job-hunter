@@ -1,0 +1,7 @@
+{
+  "display_name": "Example Candidate",
+  "email": "candidate@example.invalid",
+  "location": "Example City",
+  "role_families": ["audio", "dsp", "software"],
+  "minimum_seniority": "mid"
+}
